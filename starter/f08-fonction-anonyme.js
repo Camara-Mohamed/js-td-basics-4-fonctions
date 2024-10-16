@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 6. FONCTION ANONYME
 
@@ -15,13 +15,21 @@
 */
 
 // Expression de fonction sans paramètre ni return
-
+function direBonjour() {
+    console.log(`Bonjour !`);
+}
 
 // Appel de la fonction
 
-
+direBonjour();
 
 // b) sans paramètre mais avec return
+function direBonjour() {
+    console.log(`Bonjour !`);
+    return;
+}
+
+direBonjour();
 
 /* EXERCICE 2 :
 - Déclarez sous la forme d'une expression de fonction
@@ -30,13 +38,22 @@
 */
 
 // Expression de fonction sans paramètre mais avec return
-;
+function disBonjour() {
+    console.log(`Bonjour !`);
+    return;
+}
 
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
-
+disBonjour();
 
 
 // c) avec paramètre et return
+function disBonjour(prenom) {
+    console.log(`Bonjour ! ${prenom}`);
+    return prenom;
+}
+
+disBonjour("Jake");
 
 /* EXERCICE 3 :
 - Déclarez sous la forme d'une expression de fonction la fonction salue qui
@@ -47,5 +64,10 @@
 */
 
 // Expression de fonction avec paramètre et return
+function salue(prenom) {
+    const message = `Bonjour ! ${prenom}`;
+    return message;
+}
 
 // Utilisation de la fonction pour saluer Thomas dans la console
+console.log(salue("Thomas"));
