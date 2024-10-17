@@ -21,7 +21,6 @@ function isbissextile(year) {
 // Fonction pour vérifier si une date est valide
 function isValid(day, month, year) {
     let maxDays = 31;
-
 }
 
 // Demander à l'utilisateur de saisir une date
