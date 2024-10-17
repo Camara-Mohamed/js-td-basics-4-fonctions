@@ -27,7 +27,7 @@ pour le réutiliser dans une autre fonction
 
 // 1°) Créez la fonction calcule1
 function calcule1() {
-    resultat1 = 2 + 3;
+    const resultat1 = 2 + 3;
     return resultat1;
 }
 
@@ -35,7 +35,7 @@ calcule1();
 
 // 2°) Créez la fonction calcule2
 function calcule2() {
-    resultat2 = 2 * resultat1;
+    const resultat2 = 2 * resultat1;
     return resultat2;
 }
 

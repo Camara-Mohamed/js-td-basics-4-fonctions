@@ -14,7 +14,7 @@
    b) "Sophie"
 */
 function direBonjour(prenom) {
-    message = `Bonjour ${prenom} !`;
+    const message= `Bonjour ${prenom} !`;
     return message;
 }
 

@@ -86,7 +86,7 @@ function affiche1() {
 //    - donne l'ordre d'afficher dans la console "Dans affiche2 : nbre2 =  "
 //    - donne l'ordre d'afficher dans la console "Dans affiche2 : nbre1 =  "
 function affiche2() {
-    nbre2 = 3;
+    const nbre2 = 3;
     console.log(`Dans affiche2 : nbre2  = ${nbre2}`);
     console.log(`Dans affiche2 : nbre1  = ${nbre1}`);
 }
